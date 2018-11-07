@@ -11,9 +11,11 @@
 #include<stdio.h>
 int main()
 {
-	int m = 5;
-	int n = 6;
+	int m;
+	int n;
 	int i,j;
+	printf("输入行数和空格数:");
+	scanf("%d%d",&n,&m);
 	for( i=0;i<n;i++ )					//n行
 	{
 		for( j=0;j<n-i;j++ )			//空1

@@ -20,6 +20,6 @@ int main()
 		printf("除数为0,商不存在! \n");
 		return 0;
 	}
-	printf("%d / %d = %d \n",m,n,m/n);
+	printf("%d / %d = %.2f \n",m,n,(float)m/n);
 	return 0;
 }
